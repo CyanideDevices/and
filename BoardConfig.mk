@@ -43,3 +43,7 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
 -include vendor/motorola/titan/BoardConfigVendor.mk
+
+TARGET_CYANIDE_ROM=4.9
+TARGET_NDK_CYANIDE_ROM=4.9
+TARGET_CYANIDE_ARM=4.8
